@@ -17,7 +17,7 @@ function Hero() {
                     />
                 </p>
                 <div className="social-links">
-                    <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
+                    <a href="#" className="twitter"><i className="bx bxl-github"></i></a>
                     <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
                     <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                 </div>
