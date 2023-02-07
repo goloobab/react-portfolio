@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Team Profile Generator
+# React Portfolio
 
 This application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
