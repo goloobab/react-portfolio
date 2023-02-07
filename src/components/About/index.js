@@ -7,8 +7,7 @@ function About() {
 
                 <div className="section-title">
                     <h2>About</h2>
-                    <p>Motivated Front-end Web developer one with passion in design. I started off with CMS's like Wordpress now
-                        currently work on projects in HTML, CSS, JavaScript with frame works like Boostrap, Jquery and React library.
+                    <p>Started as IT Specialist that enjoyed playing with Ms Paint to a versatile IT professional with a passion for web development. 
                     </p>
                 </div>
 
@@ -19,15 +18,13 @@ function About() {
                     <div className="col-lg-8 pt-4 pt-lg-0 content">
                         <h3>FrontEnd Developer &amp; IT Support Specialist.</h3>
                         <p className="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore
-                            magna aliqua.
+                            I bring a unique combination of technical skills and creative flair to every project.
                         </p>
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chelmsford, UK</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">

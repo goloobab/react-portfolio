@@ -5,7 +5,7 @@ function Skills() {
   const skillsDetails = [
     {
       name: "HTML",
-      experience: 100
+      experience: 95
     },
     {
       name: "CSS",
@@ -13,11 +13,11 @@ function Skills() {
     },
     {
       name: "Javascript",
-      experience: 75
+      experience: 65
     },
     {
       name: "React",
-      experience: 80
+      experience: 50
     },
     {
       name: "WordPress/CMS",
@@ -25,7 +25,7 @@ function Skills() {
     },
     {
       name: "IT support",
-      experience: 55
+      experience: 90
     },
   ]
 
@@ -35,9 +35,7 @@ function Skills() {
 
         <div className="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Over the years I have acquired skills in different technologies and libraries.</p>
         </div>
 
         <div className="row skills-content">
