@@ -8,9 +8,11 @@ function Projects(props) {
 
                 <div className="section-title">
                     <h2>Projects</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-                        in iste officiis commodi quidem hic quas.</p>
+                    <p>"I am proud to showcase a selection of my recent projects, each demonstrating my technical 
+                        abilities and design sensibility. From dynamic landing pages to complex web applications, 
+                        these projects highlight my skills in front-end development and my commitment to delivering 
+                        outstanding results."
+                    </p>
                 </div>
 
                 <ProjectsList projects={props.projects} />
