@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Team Profile Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This project us a commad Line application that accepts user input using inquirer with the help of Node.js.The user will be presented with a series of question prompts to gather information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
 
-### `npm start`
+## User Story
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their emails and GitHub profiles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  * When a user starts the application then they are prompted to enter the **team manager**’s:
+    * Name
+    * Employee ID
+    * Email address
+    * Office number
+  * When a user enters those requirements then the user is presented with a menu with the option to:
+    * Add an engineer
+    * Add an intern 
+    * Finish building the team
+  * When a user selects the **engineer** option then a user is prompted to enter the following and then the user is taken back to the menu:
+    * Engineer's Name
+    * ID
+    * Email
+    * GitHub username
+  * When a user selects the intern option then a user is prompted to enter the following and then the user is taken back to the menu:
+    * Intern’s name
+    * ID
+    * Email
+    * School
+  * When a user decides to finish building their team then they exit the application, and the HTML is generated.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Javascript](https://www.npmjs.com/package/jest) for running the unit tests 
+* [React](https://reactjs.org/) for collecting input from the user. 
+The application will be invoked by using the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Challenges
+* Creating the logic to switch questions depending on user choice. 
+* Getting the right dependency versions to use and install
+* Determining what to include in the gitignore file
+* Installing the right node version for the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Things I learned 
+* Using the gitingore file
+* Installing of different dependencies
+* Creating and using constructors
+* Exporting classes
+* Using the inquirer package
+* Using of the template literals
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshot
+![screencapture-team-profile-generator-output-team-html-2023-01-29-23_00_45](https://user-images.githubusercontent.com/26630637/215360643-5ea08c04-6261-4449-ab82-9052d40e84fa.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Links
+Project Repository:  https://github.com/goloobab/react-portfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License 
+Please refer to the LICENSE enclosed in the repository
 
-## Learn More
+## Contacts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have any questions, please contact me at: 
+ 
+  Github Profile: [goloobab](https://github.com/goloobab/)  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  Email: [Billy Golooba](mailto:goloobab@gmail.com) 
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  LinkedIn: [ Billy Golooba ](https://linkedin.com/in/goloobab)
