@@ -29,7 +29,7 @@ function About() {
                             </div>
                             <div className="col-lg-6">
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Experience:</strong> <span>Junior</span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                 </ul>
                             </div>
