@@ -13,7 +13,7 @@ function About() {
 
                 <div className="row">
                     <div className="col-lg-4">
-                        <img src="/images/profile/billy.jpg" className="img-fluid" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/images/profile/billy.jpg"} className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-8 pt-4 pt-lg-0 content">
                         <h3>FrontEnd Developer &amp; IT Support Specialist.</h3>
@@ -41,7 +41,7 @@ function About() {
                           learning and eager for new challenges, I am excited to grow as a front-end developer."
 
                         </p>
-                        <div className="text-center"><a href="/files/Resume.pdf" className="btn" download>Download CV</a></div>
+                        <div className="text-center"><a href={process.env.PUBLIC_URL + "/files/Resume.pdf"} className="btn" download>Download CV</a></div>
                     </div>
                 </div>
 
