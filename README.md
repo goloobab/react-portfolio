@@ -1,37 +1,25 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # React Portfolio
 
-This application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
 ## Description
 
-This project us a commad Line application that accepts user input using inquirer with the help of Node.js.The user will be presented with a series of question prompts to gather information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
+This project is a showcase of a portfolio created using React that sets one apart from other developers whose portfolios do not use some of the latest technologies.
 
 ## User Story
 
-As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their emails and GitHub profiles.
+As a web development I need to have dynamic portfolio web app with a polished UI/UX design implemented the r a user want to generate a webpage 
 
-  * When a user starts the application then they are prompted to enter the **team manager**’s:
-    * Name
-    * Employee ID
-    * Email address
-    * Office number
-  * When a user enters those requirements then the user is presented with a menu with the option to:
-    * Add an engineer
-    * Add an intern 
-    * Finish building the team
-  * When a user selects the **engineer** option then a user is prompted to enter the following and then the user is taken back to the menu:
-    * Engineer's Name
-    * ID
-    * Email
-    * GitHub username
-  * When a user selects the intern option then a user is prompted to enter the following and then the user is taken back to the menu:
-    * Intern’s name
-    * ID
-    * Email
-    * School
-  * When a user decides to finish building their team then they exit the application, and the HTML is generated.
+The portfolio meets the following requirements:
 
+React: Navigation using React Router, dynamic rendering, or another third part router:
+* At a minimum, your portfolio must render these 6 components:
+   * App
+   * Header
+   * Home page
+   * Projects page
+   * Project (on Projects page)
+   * Contact page
 
 ---
 
@@ -39,6 +27,8 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 * [Javascript](https://www.npmjs.com/package/jest) for running the unit tests 
 * [React](https://reactjs.org/) for collecting input from the user. 
+* Bootstrap
+* Custom CSS
 The application will be invoked by using the following command:
 
 ```bash
@@ -48,26 +38,25 @@ npm start
 ---
 
 ## Challenges
-* Creating the logic to switch questions depending on user choice. 
-* Getting the right dependency versions to use and install
-* Determining what to include in the gitignore file
+* Deploying the react project on github pages. 
+* Modifying url links for images
+* Changing a SPA to routes
 * Installing the right node version for the project
 
 ## Things I learned 
-* Using the gitingore file
-* Installing of different dependencies
-* Creating and using constructors
-* Exporting classes
-* Using the inquirer package
-* Using of the template literals
+* Creating react Components file
+* Using React Route
+* Exporting of functions in React
+* Importing functions in React
+
 
 ## Screenshot
 ![screencapture-fgessa-github-io-portfolio-2023-02-08-17_19_04](https://user-images.githubusercontent.com/26630637/217604645-551a9619-d1d5-4c39-9598-226ed6f2f401.png)
 
 
 ## Links
-[Project Repository](https://github.com/goloobab/react-portfolio)
-[Deloyed Project](https://goloobab.github.io/react-portfolio/)
+* [Project Repository](https://github.com/goloobab/react-portfolio)
+* [Deloyed Project](https://goloobab.github.io/react-portfolio/)
 
 ## License 
 Please refer to the LICENSE enclosed in the repository
