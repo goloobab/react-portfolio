@@ -67,7 +67,7 @@ npm start
 
 ## Links
 [Project Repository](https://github.com/goloobab/react-portfolio)
-[Deloyed Project](https://goloobab.github.io/react-portfolio/)
+[Deloyed Project]
 
 ## License 
 Please refer to the LICENSE enclosed in the repository
