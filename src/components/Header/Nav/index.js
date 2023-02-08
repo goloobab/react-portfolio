@@ -5,27 +5,27 @@ import "./style.css"
 function Nav() {
     const routes = [
         {
-            path: "/",
+            path: "/react-portfolio",
             icon: "bx-home",
             text: "Home"
         },
         {
-            path: "/about",
+            path: "/react-portfolio/about",
             icon: "bx-user",
             text: "About"
         },
         {
-            path: "/skills",
+            path: "/react-portfolio/skills",
             icon: "bi-mortarboard",
             text: "Skills"
         },
         {
-            path: "/projects",
+            path: "/react-portfolio/projects",
             icon: "bx-book-content",
             text: "Projects"
         },
         {
-            path: "/contact",
+            path: "/react-portfolio/contact",
             icon: "bx-envelope",
             text: "Contact"
         }
