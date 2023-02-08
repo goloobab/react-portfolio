@@ -7,7 +7,7 @@ function About() {
 
                 <div className="section-title">
                     <h2>About</h2>
-                    <p>Started as IT Specialist that enjoyed playing with Ms Paint to a versatile IT professional with a passion for web development. 
+                    <p>Started as an IT Support Specialist that enjoyed playing with Ms Paint to a versatile IT professional with a passion for web development. 
                     </p>
                 </div>
 
