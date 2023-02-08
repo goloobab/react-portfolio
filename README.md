@@ -62,6 +62,7 @@ npm start
 * Using of the template literals
 
 ## Screenshot
+![screencapture-fgessa-github-io-portfolio-2023-02-08-17_19_04](https://user-images.githubusercontent.com/26630637/217604645-551a9619-d1d5-4c39-9598-226ed6f2f401.png)
 
 
 ## Links
